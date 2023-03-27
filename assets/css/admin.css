@@ -1,0 +1,18 @@
+.container{
+     
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     height: 100vh;
+}
+
+
+.align-content{
+     width: 50%;
+     align-items: center;
+
+}
+body{
+
+     height: 100vh;
+}

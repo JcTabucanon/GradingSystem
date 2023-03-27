@@ -1,0 +1,64 @@
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #1f1f23;
+    margin: 0;
+  }
+  
+  /* Hide scrollbar */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+  }
+  
+  /* Style the form container */
+  .container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Style the input fields */
+  input,
+  textarea {
+    display: block;
+    width: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #2d2d33;
+    color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+   /* Move label up when input is focused */
+  input:focus + label
+   {
+    transform: translateY(0);
+    font-size: 12px;
+    color: #8c8c8c;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the thank you message */
+  p {
+    margin-top: 15px;
+    font-weight: 600;
+    color: green;
+  }

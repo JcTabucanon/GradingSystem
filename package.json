@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i style.css -o src/css/tailwind.css",
+    "watch": "npx tailwindcss -i style.css -o src/css/tailwind.css --minify --watch",
+    "minify": "npx tailwindcss -i style.css -o src/css/tailwind.css --minify"
+  }
+}
